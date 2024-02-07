@@ -3,10 +3,10 @@
   <head>
     <title>Jagtap Nikhil- Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
+    
   </head>
   <body>
-    <!-- Navigation Bar -->
+    
     <nav>
       <div id="home">
         <div class="profile_name">
@@ -24,10 +24,11 @@
         </div>
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
+          
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Contact</a>
+          <a class="topmenu" href="#contact">Contact</a>
+          <a class="topmenu" href="#resume">Resume</a>
         </div>
       </div>    
     </nav>
@@ -40,14 +41,15 @@
 
       <div>
           <h1>
-            Hi, I'm Jagatp Nikhil! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+            Hi, I'm Jagatp Nikhil! 
           </h1>
           <p>
             A Full Stack Developer with one year of experience excels in front-end technologies like HTML, CSS, and JavaScript, and is proficient in server-side languages. With a foundation in both front-end and back-end development, they are poised for continued growth in the field.
           </p>
       </div>
     </section>
-              
+    <section id="resume"><button id="downloadBtn">Download CV</button></section> 
+    <!-- <a id="downloadCVBtn">Download CV</a> -->
     <!-- Skills -->
     <section id="skills">
       <h2>Skills</h2>
@@ -66,7 +68,7 @@
           <p>3 years experience</p>
         </div>  
 
-        <!-- Add more skills here -->
+       
         <div class="skill">
             <img src="html_finalprojimages/CSS3.png"/>
             <h6>CSS3</h6>
@@ -121,27 +123,9 @@
     <div style="clear:both;"></div>
 
     <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Nikhil is an exceptional full-stack developer with a keen understanding of both front-end and back-end technologies. His problem-solving skills and attention to detail make him a valuable asset to any development team.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I have had the pleasure of working with Nikhil on several projects, and his proficiency in HTML, CSS, and JavaScript is outstanding. He consistently delivers high-quality code and collaborates effectively with cross-functional teams.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I highly recommend Nikhil for any full-stack development role. His ability to quickly grasp complex concepts and turn them into practical solutions is impressive. He's a reliable team player with a strong commitment to producing top-notch results.
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
+    
+      <h2>Contact</h2>
+      <br>
 
     <!-- Recommendation Form -->
     <section id="contact">
@@ -156,6 +140,7 @@
         </fieldset>
       </div>
     </section>
+    
 
     <div class="iconbutton">
       <a href="#home">
@@ -172,5 +157,8 @@
     Thanks for Contacting Me..!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
   </body>
 </html>
